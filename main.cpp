@@ -3,9 +3,11 @@
 using namespace std;
 
 int main() {
+    cout << "Hello, World!" << endl;
     int x =1;
     int y = x+1;
     cout<<y<<endl;
-    cout << "Hello, World!" << endl;
+    int z = y+x;
+    cout<<z<<endl;
     return 0;
 }
